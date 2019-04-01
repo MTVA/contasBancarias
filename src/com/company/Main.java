@@ -9,14 +9,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        contaBancaria c1; // = new contaBancaria(1,"Marcos",500.0);
+        contaBancaria c1;
         Scanner sc = new Scanner(System.in);
         double dep = 100 , sac = 200;
         String nome;
         int aux=0;
 
-        System.out.println("Qual o nome do titular?");
-        nome = sc.next();
+        System.out.println("Qual o nome do titular da conta criada?");
+        nome = sc.nextLine();
 
 
         System.out.println("Deseja realizar um deposito inicial? S-1 N-2");
